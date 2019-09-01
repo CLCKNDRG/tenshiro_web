@@ -1,42 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
     <head>
-        <title>Tenshi.RO</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+
+        <title>天史RO</title>
 
         <style>
+            body{
+                font-family: "Noto Sans KR", NanumGothic, "나눔고딕", sans-serif;
+            }
+            a{
+                color:gray;
+            }
             h1{
-                text-align: center
+                text-align: center;
+            }
+            h3{
+                background: black;
+                color: white;
+            }
+
+            .head_title{
+                font-weight: 700;
+            }
+            .links{
+                color: gray;
+            }
+            .title_coral{
+                background: coral;
+                color: white;
+            }
+            .extra_detail{
+                font-style: italic;
+                color: gray;
             }
         </style>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <h1><a href="">天使RO</a></h1>
-        <h2>RO chan... Maji Tenshi...?</h2>
-        <ul>
-            <a href="" title="ABOUT">ABOUT</a>
-            <a href="" title="CONTACT">CONTACT</a>
-        </ul>
-
+        <h1 class="head_title"><a href="intro.html">天使RO</a></h1>
+        <h2 class="head_detail">RO chan... Maji Tenshi...?</h2>
     </head>
 
     <body>
-        <h3>Game by ClickNDrag</h3>
-        <p>ClickNDrag라는 이름으로 RPG MAKER 프로그램을 사용하여 게임을 만들었습니다.<br>
+        <div class="contents">
+            <ul class="links">
+                <a href="intro.html" title="ABOUT">ABOUT</a>
+                <a href="contact.html" title="CONTACT">CONTACT</a>
+            </ul>
+        </div>
+
+        <h3 class="title_click">Game by ClickNDrag</h3>
+        <p class="details">ClickNDrag라는 이름으로 RPG MAKER 프로그램을 사용하여 게임을 만들었습니다.<br>
         스크립트를 활용하지 않은 채로 이벤트를 사용하여 최대한 많은 기능을 구현하는 것을 즐겼습니다.<br>
         </p>
 
-        <h3>Composed by TenshiRO</h3>
+        <h3 class="title_tenshi">Composed by Tenshi</h3><h3 style="color: orangered">R</h3><h3 style="color: orange">O</h3>
         <p>TenshiRO라는 이름으로 사운드클라우드에 노래들을 업로드하고 있습니다.<br>
         짧은 루프 형식의 미니멀한 노래들을 만듭니다. 장르는 그때그때 만들고 싶은 것을 만듭니다.
         </p>
 
-        <h3>Graphics by CoralLeaf</h3>
+        <h3 class="title_coral">Graphics by CoralLeaf</h3>
         <p>그림 그리는 연습을 하고 있습니다.<br>
         목표는 그림을 그리기 시작하면 일주일 안에 완성하기 입니다.<br>
         가능한 한 달에 전신 그림 한 장은 그려내는 것이 목표입니다.</p>
 
-        <h3>As a Gamer</h3>
+        <h3 class="title_gamer">As a Gamer</h3>
         <p>게임계를 여행하는 히치하이커입니다.<br>
         짧게 많은 게임을 합니다.</p>
         <ul>
@@ -44,16 +72,20 @@
                 <ul>
                     <li>TenshiRO635</li>
                     <li>UID 332610</li>
-                    "인형수집률 100%"<br>>
-                    "아! 소녀전선 아시는 구나!"
+                    <div class="extra_detail">
+                        "인형수집률 100%"<br>
+                        "아! 소녀전선 아시는 구나!"
+                    </div>
                 </ul>
             </li>
             <li>뱅드림
                 <ul>
                     <li>파스파레추</li>
                     <li>플레이어ID 657537</li>
-                    "마스터룸 입장이 목표"<br>
-                    "파스파레 4성 없음"
+                    <div class="extra_detail">
+                        "마스터룸 입장이 목표"<br>
+                        "파스파레 4성 없음"
+                    </div>
                 </ul>
             </li>
             <li>프린세스 커넥트 Re:Dive
@@ -61,8 +93,10 @@
                     <li>누크다스</li>
                     <li>플레이어ID 216721997768</li>
                     <li>「나는 내가 좋아」 클랜장</li>
-                    "프레나 존버 중"<br>
-                    "쥰없찐"
+                    <div class="extra_detail">
+                        "프레나 존버 중"<br>
+                        "쥰없찐"
+                    </div>
                 </ul>
             </li>
             <li>얼티밋 스쿨
@@ -70,14 +104,18 @@
                     <li>TenshiRO635</li>
                     <li>ID 1004589783</li>
                     <li>중학교 2학년</li>
-                    "모든 포지션 가능"
+                    <div class="extra_detail">
+                        "모든 포지션 가능"
+                    </div>
                 </ul>
             </li>
             <li>Dota Underlords
                 <ul>
                     <li>ClickNDrag</li>
                     <li>사기꾼 II레벨</li>
-                    "롤토체스보다 재밌다니까요?"
+                    <div class="extra_detail">
+                        "롤토체스보다 재밌다니까요?"
+                    </div>
                 </ul>
             </li>
             <li>검은사막 모바일
@@ -85,7 +123,9 @@
                     <li>누크다스</li>
                     <li>금수랑 [누크다스]</li>
                     <li>전투력 4325</li>
-                    "최고의 화면보호기"
+                    <div class="extra_detail">
+                        "최고의 화면보호기"
+                    </div>
                 </ul>
             </li>
         </ul>
